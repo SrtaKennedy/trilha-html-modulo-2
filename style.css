@@ -1,0 +1,139 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: rgb(66, 97, 97);
+    padding: 20px 30px 0px 0px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu a{
+    font-size: 13px;
+    color: aliceblue;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.tabela, th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+.tabela .tabela-itens {
+    background-color: rgb(190, 235, 235);
+}
+
+.tabela-services {
+    background-color: rgb(119, 148, 138);
+    color: white;
+}
+
+.tabela-service .itens {
+    background-color: rgb(105, 126, 126);
+    color: white;
+}
+
+.footer {
+    background-color: rgb(99, 56, 240);
+    color: azure;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.5;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="text"],
+textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: rgb(99, 56, 240);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: rgb(53, 36, 107);
+}
